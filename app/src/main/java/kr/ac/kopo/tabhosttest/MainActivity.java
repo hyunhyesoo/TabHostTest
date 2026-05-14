@@ -20,16 +20,20 @@ public class MainActivity extends TabActivity {
 
         TabHost tabHost = getTabHost();
 
-        TabHost.TabSpec tabSpecMusic = tabHost.newTabSpec("music").setIndicator("음악");
-        tabSpecMusic.setContent(R.id.tabMusic);
-        tabHost.addTab(tabSpecMusic);
+        TabHost.TabSpec tabSpecJJ = tabHost.newTabSpec("JJ").setIndicator("짱구");
+        tabSpecJJ.setContent(R.id.tabJJ);
+        tabHost.addTab(tabSpecJJ);
 
-        TabHost.TabSpec tabSpecArtist = tabHost.newTabSpec("artist").setIndicator("가수");
-        tabSpecArtist.setContent(R.id.tabArtist);
-        tabHost.addTab(tabSpecArtist);
+        TabHost.TabSpec tabSpecMM = tabHost.newTabSpec("MM").setIndicator("맹구");
+        tabSpecMM.setContent(R.id.tabMM);
+        tabHost.addTab(tabSpecMM);
 
-        TabHost.TabSpec tabSpecAlbum = tabHost.newTabSpec("album").setIndicator("앨범");
-        tabSpecAlbum.setContent(R.id.tabAlbum);
-        tabHost.addTab(tabSpecAlbum);
+        TabHost.TabSpec tabSpecHH = tabHost.newTabSpec("HH").setIndicator("흰둥이");
+        tabSpecHH.setContent(R.id.tabHH);
+        tabHost.addTab(tabSpecHH);
+
+        TabHost.TabSpec tabSpecJJ_A = tabHost.newTabSpec("JJ_A").setIndicator("짱아");
+        tabSpecJJ_A.setContent(R.id.tabJJ_A);
+        tabHost.addTab(tabSpecJJ_A);
     }
 }
